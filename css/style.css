@@ -7,7 +7,8 @@ body {
 
 h1 {
     padding: 15px;
-
+    font-size: 42px;
+    text-align: center;
 }
 
 h2 {
@@ -22,86 +23,58 @@ p {
 
 img {
     width: 250px;
-    text-align: center;
+    display: block;
+    margin: auto;
     border: 10px dashed #FFFFFF;
 }
 
 div {
+    min-height: 125px;
     padding: 20px;
     border: 3px solid #FFFFFF;
 }
 
-.introduction {
+div.introduction {
     border-radius: 15px;
     margin-top: 15px;
 
 }
 
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border: 0px 0px 2px 5px;
 }
 
-.blue {
+div.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border: 2px 5px 0px 0px;
 }
 
-.yellow {
+div.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border: 0px 0px 2px 5px;
 }
 
-.green {
+div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border: 2px 5px 0px 0px;
 }
 
 footer {
+    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
     border: 5px solid #FFFFFF;
 }
 
-/*
-
-
-Style the default footer elements with:
-a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
-A 5px solid white border.
-Style any paragraphs within the footer with:
-20px text that is aligned to the right.
-Padding of 15px on the top, right, and bottom only. (No padding on the left.)
-
-
-Link the stylesheets correctly.
-Link the favicon correctly.
-
-
-Style the default div elements with:
- A flexible height of at least 125px tall
-
-
-Style the introduction class with:
-Double-spaced text
-
-The blue div has the following styles
-WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.
-Use #C4C4C4 for the heading and paragraph text
-
-The yellow div has the following styles
-WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
-Use #707070 for the paragraph text
-
-
- */
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
