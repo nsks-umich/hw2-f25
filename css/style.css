@@ -37,7 +37,7 @@ div {
 div.introduction {
     border-radius: 15px;
     margin-top: 15px;
-
+    line-height: 2;
 }
 
 div.red {
